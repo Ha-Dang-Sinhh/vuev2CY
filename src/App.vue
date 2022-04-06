@@ -1,16 +1,24 @@
 <template>
   <div id="app">
-    <HelloWorld />
+<!--    <HelloWorld />-->
+<!--    <DemoVue />-->
+<!--    <ParentComponent />-->
+    <ListProducts></ListProducts>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import HelloWorld from './components/HelloWorld.vue'
+// import DemoVue from './components/DemoVue.vue'
+// import ParentComponent from './components/ParentComponent.vue'
+import ListProducts from './components/ListProducts.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    // DemoVue,
+    // ParentComponent,
+    ListProducts,
   }
 }
 </script>
